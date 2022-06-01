@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Invoice Generator</title>
+  </head>
+  <body>
+    <div class="card">
+      <header>
+        <h1>Invoice Generator</h1>
+        <h2>Thanks for choosing GoodCorp, LLC!</h2>
+      </header>
+      <main class="main-container">
+        <div class="btn-container">
+          <button class="gig-btn gig-1"></button>
+          <button class="gig-btn gig-2"></button>
+          <button class="gig-btn gig-3"></button>
+        </div>
+        <div class="row">
+          <span class="text-span">Task</span>
+          <span class="text-span">Total</span>
+        </div>
+        <ul class="task-container"></ul>
+        <div class="line"></div>
+        <div class="row">
+          <span class="text-span">Notes</span>
+          <span class="text-span">Total Amount</span>
+        </div>
+        <div class="total row">
+          <span class="notes">We accept cash, credit card, or PayPal</span>
+          <span class="total-amount">$0</span>
+        </div>
+      </main>
+      <footer>
+        <button class="send-btn">Send invoice</button>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
