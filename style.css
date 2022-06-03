@@ -31,6 +31,7 @@ h1 {
 h2 {
   font-size: 16px;
   color: #ffffff;
+  margin-top: 10px;
 }
 
 .btn-container {
@@ -49,6 +50,7 @@ h2 {
   font-size: 14px;
   font-weight: 500;
   color: #4a4e74;
+  cursor: pointer;
 }
 
 .gig-btn:disabled {
@@ -120,4 +122,5 @@ footer {
   color: #ffffff;
   width: 75%;
   border: none;
+  cursor: pointer;
 }
